@@ -2,6 +2,7 @@ package com.driver.services;
 
 import com.driver.model.Customer;
 import com.driver.model.TripBooking;
+import org.springframework.stereotype.Service;
 
 public interface CustomerService {
 

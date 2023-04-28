@@ -6,7 +6,9 @@ import com.driver.repository.CabRepository;
 import com.driver.repository.DriverRepository;
 import com.driver.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class DriverServiceImpl implements DriverService {
     @Autowired
     DriverRepository driverRepository3;
